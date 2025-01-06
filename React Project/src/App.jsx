@@ -7,8 +7,8 @@ const App = () => {
   }
   return (
     <div>
-      <h1>Hello {name}</h1>
-      <button onClick={click}>Click Me</button>
+      <h1 className="text-4xl m-3 ">Hello {name}</h1>
+      <button onClick={click} className="bg-blue-300 rounded-xl mx-5 cursor-pointer">Click Me</button>
     </div>
   )
 }
