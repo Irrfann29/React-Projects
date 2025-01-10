@@ -6,9 +6,10 @@ const App = () => {
     console.log("Button Clicked")
   }
   return (
-    <div>
-      <h1 className="text-4xl m-3 ">Hello {name}</h1>
-      <button onClick={click} className="bg-orange-400 rounded-xl mx-5 cursor-pointer">Click Me</button>
+    <div className="h-screen w-full bg-red-500">
+      <div className="fixed bottom-5 flex items-center justify-center inset-x-1">hello
+
+      </div>
     </div>
   )
 }
