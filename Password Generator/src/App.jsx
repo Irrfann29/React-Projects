@@ -5,7 +5,10 @@
 function App() {
 
   return (
-    <> Hello
+    <> 
+      <div className="bg-black text-white h-screen">
+        Habibi
+      </div>
     </>
   )
 }
