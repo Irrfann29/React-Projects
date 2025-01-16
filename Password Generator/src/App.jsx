@@ -6,8 +6,10 @@ function App() {
 
   return (
     <> 
-      <div className="bg-black text-white h-screen">
-        Habibi
+      <div className="bg-black text-white h-screen p-4">
+        <div>
+          <h1 className="text-4xl text-center">Password Generator</h1>
+        </div>
       </div>
     </>
   )
