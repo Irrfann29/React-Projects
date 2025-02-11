@@ -15,7 +15,10 @@
     text-align: center;
 
 }
-
+img{
+    height: 100%;
+    
+}
 .heading {
     display: flex;
     justify-content: center;
@@ -54,10 +57,10 @@
     background-color: aquamarine;
     color: black;
     font-weight: bold;
-    padding: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 18px;
     font-size: larger;
     cursor: pointer;
 }
